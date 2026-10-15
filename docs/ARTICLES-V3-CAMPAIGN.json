@@ -79,8 +79,8 @@
       ],
       "morph_current": "MORPH-003 memory-risk-to-action coupling; engineering only",
       "pretorius_implementation_state": "Partial",
-      "pretorius_current": "Doctor recollection and typed source history",
-      "pretorius_next_discriminating_work": "Selective-memory intervention changing external task choice",
+      "pretorius_current": "Doctor recollection and typed source history; advancing base adds verified-memory Laboratory route",
+      "pretorius_next_discriminating_work": "Replicate Laboratory route/delivery lesion-restoration outside authored shelf tasks; qualify independent longitudinal families",
       "qualified_outcome": "Unassessable",
       "qualification_evidence": null
     },
@@ -367,8 +367,8 @@
       ],
       "morph_current": "executed pure checksum tools in authored assay; autonomous deployment missing",
       "pretorius_implementation_state": "Partial",
-      "pretorius_current": "Authorized internal cognition worker",
-      "pretorius_next_discriminating_work": "World-authorized tool action and independently observed consequence",
+      "pretorius_current": "Authorized internal cognition worker; advancing base adds verified-memory Laboratory route",
+      "pretorius_next_discriminating_work": "Integrate actual goal-triggered permitted initiation and independent longitudinal consequences",
       "qualified_outcome": "Unassessable",
       "qualification_evidence": null
     },
@@ -424,8 +424,8 @@
       ],
       "morph_current": "selective memory lesion/restoration and coupling ablation; independent validation missing",
       "pretorius_implementation_state": "Partial",
-      "pretorius_current": "Doctor causal audit and policy receipts",
-      "pretorius_next_discriminating_work": "New matched lesion or restoration affecting external behavior",
+      "pretorius_current": "Doctor causal audit and policy receipts; advancing base adds verified-memory Laboratory route",
+      "pretorius_next_discriminating_work": "Replicate Laboratory route/delivery lesion-restoration outside authored shelf tasks; qualify independent longitudinal families",
       "qualified_outcome": "Unassessable",
       "qualification_evidence": null
     },
@@ -660,5 +660,6 @@
       "qualified_outcome": "Unassessable",
       "qualification_evidence": null
     }
-  ]
+  ],
+  "candidate_readiness_update": "CASCADE base advanced to 29adbf6 during the work; Laboratory loop is separate explicit task policy, not native recurrent action qualification."
 }
