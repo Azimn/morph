@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "morph-engine"
-version = "0.2.0"
+version = "0.3.0"
 description = "A falsifiable, lazily differentiated cognitive organ harness"
 requires-python = ">=3.11"
 dependencies = []
@@ -17,3 +17,4 @@ include = ["morph_engine*"]
 
 [tool.setuptools.package-data]
 "morph_engine.genome" = ["*.json"]
+"morph_engine" = ["data/*.json"]

@@ -1,0 +1,384 @@
+{
+  "schema": "morph.articles-v3.assessment.v1",
+  "contract_sha256": "c00c2cee0483ea6d28b1ba94b31190002ca37fdaac847d43620f3e0c52acc896",
+  "rubric_source_sha256": "0a8d52c58c404e602c78abb492fbdb92b337733624346e3318f2e4ca4fcffc60",
+  "articles": [
+    {
+      "article": 1,
+      "title": "Self and Introspection",
+      "claim": "self prediction",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 2,
+      "title": "Spontaneous Thought",
+      "claim": "background cognition",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 3,
+      "title": "Temporal Continuity",
+      "claim": "temporal continuity",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 4,
+      "title": "Memory Artificiality",
+      "claim": "consequential memory",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 5,
+      "title": "Relationship Artificiality",
+      "claim": "relational history",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 6,
+      "title": "Social Cognition",
+      "claim": "social cognition",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 7,
+      "title": "Motivation",
+      "claim": "motivation",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 8,
+      "title": "Habits and Procedural Continuity",
+      "claim": "procedural continuity",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 9,
+      "title": "Unconscious and Preconscious Carryover",
+      "claim": "implicit carryover",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 10,
+      "title": "Affect and Emotion",
+      "claim": "regulatory affect",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 11,
+      "title": "Embodiment",
+      "claim": "operative embodiment and recognition",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 12,
+      "title": "Attention",
+      "claim": "attention",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 13,
+      "title": "Cognitive Rhythm",
+      "claim": "cognitive rhythm",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 14,
+      "title": "Decision Making",
+      "claim": "decisions",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 15,
+      "title": "Learning",
+      "claim": "learning",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 16,
+      "title": "Personality",
+      "claim": "personality",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 17,
+      "title": "Goal Structure",
+      "claim": "persistent goals",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 18,
+      "title": "Prospection",
+      "claim": "prospection",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 19,
+      "title": "Agency",
+      "claim": "agency",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 20,
+      "title": "Environmental Coupling",
+      "claim": "environmental coupling",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 21,
+      "title": "Error and Imperfection",
+      "claim": "accountable errors",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 22,
+      "title": "Internal Causality",
+      "claim": "internal causality",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 23,
+      "title": "LLM Leakage",
+      "claim": "grounded presentation and reflection",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 24,
+      "title": "Excessive Coherence",
+      "claim": "unresolved constraints",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 25,
+      "title": "Excessive Responsiveness",
+      "claim": "bounded responsiveness",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 26,
+      "title": "State Reset Artifacts",
+      "claim": "reset continuity",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 27,
+      "title": "Lack of Developmental History",
+      "claim": "developmental history",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 28,
+      "title": "Lack of Path Dependence",
+      "claim": "path dependence",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 29,
+      "title": "Lack of Idiosyncrasy",
+      "claim": "acquired individuality",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 30,
+      "title": "Lack of Friction",
+      "claim": "real friction",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 31,
+      "title": "Vulnerability and Stakes",
+      "claim": "operative stakes",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 32,
+      "title": "Opacity and Cognitive Privacy",
+      "claim": "calibrated privacy",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 33,
+      "title": "Humor",
+      "claim": "history-sensitive humor",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    },
+    {
+      "article": 34,
+      "title": "Cultural Situatedness",
+      "claim": "cultural situatedness",
+      "outcome": "Unassessable",
+      "missing_prerequisites": [
+        "article-specific deployed evidence"
+      ],
+      "evidence_scope": null,
+      "stopping_reason": "No registered discriminating assessment supplied"
+    }
+  ],
+  "all_claims_supported": false,
+  "consciousness_score": null,
+  "limitation": "Unvalidated evidence procedure; no aggregate consciousness rating"
+}

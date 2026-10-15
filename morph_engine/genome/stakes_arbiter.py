@@ -20,7 +20,17 @@ class OrganImpl(Organ):
             return {}
         self.used(turn)
         caution = self.state["caution"]
-        ranked = sorted(tasks, key=lambda t: (-(t["value"] - caution * t["risk"] * 1.5 - t["cost"]), t["id"]))
+        learned = data.get("_learned_policy")
+        applied = {}
+        effective = []
+        for task in tasks:
+            risk = task["risk"]
+            if learned is not None and task.get("affordance") == learned["domain"]:
+                risk = max(risk, 1.0 - learned["reliability"])
+                applied[task["id"]] = {"domain": learned["domain"], "base_risk": task["risk"],
+                                        "effective_risk": risk, "reliability": learned["reliability"]}
+            effective.append(dict(task, risk=risk))
+        ranked = sorted(effective, key=lambda t: (-(t["value"] - caution * t["risk"] * 1.5 - t["cost"]), t["id"]))
         chosen, deferred, spent = [], [], 0.0
         for task in ranked:
             utility = task["value"] - caution * task["risk"] * 1.5 - task["cost"]
@@ -29,4 +39,7 @@ class OrganImpl(Organ):
                 spent += task["cost"]
             else:
                 deferred.append(task["id"])
-        return {"selected": chosen, "deferred": deferred, "task_cost": spent, "caution": caution}
+        result = {"selected": chosen, "deferred": deferred, "task_cost": spent, "caution": caution}
+        if applied:
+            result["applied_memory_risk"] = applied
+        return result

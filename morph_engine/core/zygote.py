@@ -120,10 +120,13 @@ class MorphZygote:
             raise ValueError("tasks must be a list")
         ids = set()
         for task in tasks:
-            if not isinstance(task, dict) or set(task) != {"id", "value", "risk", "cost"}:
+            if (not isinstance(task, dict) or not {"id", "value", "risk", "cost"} <= set(task)
+                    or set(task) - {"id", "value", "risk", "cost", "affordance"}):
                 raise ValueError("Task requires id, value, risk, cost")
             if not isinstance(task["id"], str) or not task["id"] or task["id"] in ids:
                 raise ValueError("Task ids must be unique nonempty text")
+            if "affordance" in task and (not isinstance(task["affordance"], str) or not task["affordance"]):
+                raise ValueError("Task affordance must be nonempty text")
             ids.add(task["id"])
             for key in ("value", "risk", "cost"):
                 finite(task[key], key)
@@ -165,9 +168,16 @@ class MorphZygote:
                 self.msv.trigger_refs[channel] = digest
             self.msv.reserve = max(0.0, self.msv.reserve - observation["cost"] * 0.25)
         outputs = {}
+        # Causal dependency order is explicit and independent of birth order.
+        memory = self.mounted_organs.get("episodic_path_graph")
+        if memory is not None:
+            outputs.update(memory.process(data, self.msv.current_turn, now, self.msv.budget_per_turn))
         for organ_id, organ in self.mounted_organs.items():
-            if organ_id != "metacognitive_audit_mirror":
-                outputs.update(organ.process(data, self.msv.current_turn, now, self.msv.budget_per_turn))
+            if organ_id not in ("metacognitive_audit_mirror", "episodic_path_graph"):
+                organ_input = data
+                if organ_id == "homeostatic_stakes_arbiter" and "memory_policy" in outputs:
+                    organ_input = dict(data, _learned_policy=dict(outputs["memory_policy"], domain=data.get("domain")))
+                outputs.update(organ.process(organ_input, self.msv.current_turn, now, self.msv.budget_per_turn))
         mirror = self.mounted_organs.get("metacognitive_audit_mirror")
         if mirror:
             outputs.update(mirror.process(data, self.msv.current_turn, now, self.msv.budget_per_turn))

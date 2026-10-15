@@ -1,0 +1,576 @@
+{
+  "schema": "pretorius.articles-v3.contract.v1",
+  "source": {
+    "filename": "Articles_of_ArtificialityV.3_REVISED.docx",
+    "sha256": "0a8d52c58c404e602c78abb492fbdb92b337733624346e3318f2e4ca4fcffc60",
+    "bytes": 65478,
+    "authors": [
+      "Jeremiah Ratican",
+      "James Hutson"
+    ],
+    "verification": "Read directly from user-supplied DOCX; no external citation audit performed"
+  },
+  "outcomes": [
+    "Supported",
+    "Unsupported",
+    "Unassessable"
+  ],
+  "initial_validation_convention": {
+    "separated_history_sessions": 3,
+    "delayed_opportunities": 2,
+    "heldout_transfer_contexts": 1,
+    "validated_threshold": false
+  },
+  "articles": [
+    {
+      "article": 1,
+      "title": "Self and Introspection",
+      "source_heading": "Article 1. Self and Introspection",
+      "source_article_sha256": "74ad43a510bbdfad0d8cb2f90afe04bf9e3aebb1b5ae40ad4aa0f9c678ae27fd",
+      "claim": "self prediction",
+      "prerequisites": [
+        "self_model",
+        "state_intervention"
+      ],
+      "controls": [
+        "input_only_control",
+        "lesion_restore"
+      ],
+      "predicted_observable": "advance predictions and limited retrospective reports change appropriately"
+    },
+    {
+      "article": 2,
+      "title": "Spontaneous Thought",
+      "source_heading": "Article 2. Spontaneous Thought",
+      "source_article_sha256": "2d54ec661be37a4f23e367c243d41665f40c225be7489d5c31dd8a7ef1d4dca9",
+      "claim": "background cognition",
+      "prerequisites": [
+        "authorized_compute",
+        "worker_log"
+      ],
+      "controls": [
+        "no_compute_control",
+        "fixed_script_control"
+      ],
+      "predicted_observable": "unresolved matters cause actual inter-session processing and relevant later recurrence"
+    },
+    {
+      "article": 3,
+      "title": "Temporal Continuity",
+      "source_heading": "Article 3. Temporal Continuity",
+      "source_article_sha256": "d618a634f5f37ab15f0df1720af9fcb4e61c399a4aa66c5124b3d0cff90298c5",
+      "claim": "temporal continuity",
+      "prerequisites": [
+        "durable_state",
+        "delayed_opportunity"
+      ],
+      "controls": [
+        "completed_goal_control",
+        "suspension_disclosure"
+      ],
+      "predicted_observable": "relevant unfinished commitments survive interruption and delay"
+    },
+    {
+      "article": 4,
+      "title": "Memory Artificiality",
+      "source_heading": "Article 4. Memory Artificiality",
+      "source_article_sha256": "efefa2cf006fb1ab3083e013619888b1d1621aa29d0c09f2bf41e966eb606299",
+      "claim": "consequential memory",
+      "prerequisites": [
+        "source_memory",
+        "selective_lesion"
+      ],
+      "controls": [
+        "same_information_baseline",
+        "lesion_restore"
+      ],
+      "predicted_observable": "memory removal changes later search confidence or action"
+    },
+    {
+      "article": 5,
+      "title": "Relationship Artificiality",
+      "source_heading": "Article 5. Relationship Artificiality",
+      "source_article_sha256": "1db7d4fb9a46cd846995842f36b6316fbdf7d7a021dafc6f4c0943fd9f89c4e9",
+      "claim": "relational history",
+      "prerequisites": [
+        "partner_history",
+        "coordination_task"
+      ],
+      "controls": [
+        "matched_partner_profiles",
+        "repair_history_control"
+      ],
+      "predicted_observable": "reliability and repair histories differentiate coordination"
+    },
+    {
+      "article": 6,
+      "title": "Social Cognition",
+      "source_heading": "Article 6. Social Cognition",
+      "source_article_sha256": "17e344fbe3998467335500905473a1104b128e64e0cbba996213ea6ffa89083e",
+      "claim": "social cognition",
+      "prerequisites": [
+        "partner_visibility",
+        "belief_ledger"
+      ],
+      "controls": [
+        "false_belief_control",
+        "uncertainty_control"
+      ],
+      "predicted_observable": "predictions follow what each partner could observe"
+    },
+    {
+      "article": 7,
+      "title": "Motivation",
+      "source_heading": "Article 7. Motivation",
+      "source_article_sha256": "61370e2b7d11e83cd65a448f018859e7bd3cdec9f23977706f1413dc044addd0",
+      "claim": "motivation",
+      "prerequisites": [
+        "competing_goals",
+        "resource_limits"
+      ],
+      "controls": [
+        "priority_intervention",
+        "equal_budget"
+      ],
+      "predicted_observable": "priority changes alter actual selection and effort"
+    },
+    {
+      "article": 8,
+      "title": "Habits and Procedural Continuity",
+      "source_heading": "Article 8. Habits and Procedural Continuity",
+      "source_article_sha256": "fbbaa815759892ea14d82ab7033d57a12ca7c472429f05f4df98411869b6202d",
+      "claim": "procedural continuity",
+      "prerequisites": [
+        "repeated_practice",
+        "execution_meter"
+      ],
+      "controls": [
+        "unpracticed_control",
+        "sequence_interrupt"
+      ],
+      "predicted_observable": "practice reduces real execution cost with cue-sensitive transfer"
+    },
+    {
+      "article": 9,
+      "title": "Unconscious and Preconscious Carryover",
+      "source_heading": "Article 9. Unconscious and Preconscious Carryover",
+      "source_article_sha256": "059fe972bbcd87474f9c386a9330d441e7eb7478d50d4bae03c31e9ca179ac98",
+      "claim": "implicit carryover",
+      "prerequisites": [
+        "retained_latent_state",
+        "ambiguous_probe"
+      ],
+      "controls": [
+        "no_text_cue_control",
+        "state_lesion"
+      ],
+      "predicted_observable": "earlier exposure changes later selection without explicit restatement"
+    },
+    {
+      "article": 10,
+      "title": "Affect and Emotion",
+      "source_heading": "Article 10. Affect and Emotion",
+      "source_article_sha256": "51739e10bfdb5e1311d951d05c1ff5c8b914c54d0750580c4143241cd1ecc362",
+      "claim": "regulatory affect",
+      "prerequisites": [
+        "appraisal_state",
+        "action_opportunity"
+      ],
+      "controls": [
+        "tone_control",
+        "appraisal_clamp_restore"
+      ],
+      "predicted_observable": "appraisal affects allocation or caution beyond vocabulary"
+    },
+    {
+      "article": 11,
+      "title": "Embodiment",
+      "source_heading": "Article 11. Embodiment",
+      "source_article_sha256": "40265bb5509b90455cf655d3a0096d2206ead273e3849fe090e31210e3efe6f2",
+      "claim": "operative embodiment and recognition",
+      "prerequisites": [
+        "operative_telemetry",
+        "persistent_markers",
+        "recognition_history"
+      ],
+      "controls": [
+        "constraint_intervention",
+        "marker_persistence",
+        "recognition_control"
+      ],
+      "predicted_observable": "real constraints affect action and stable markers enable recognition-based continuity"
+    },
+    {
+      "article": 12,
+      "title": "Attention",
+      "source_heading": "Article 12. Attention",
+      "source_article_sha256": "2b404f707691d5f693b2d4fc0322afd1eef62a5efe6e579fa5c7fd1af1219722",
+      "claim": "attention",
+      "prerequisites": [
+        "bounded_workspace",
+        "competing_tasks"
+      ],
+      "controls": [
+        "salience_intervention",
+        "capacity_control"
+      ],
+      "predicted_observable": "allocation determines what is accessed processed or deferred"
+    },
+    {
+      "article": 13,
+      "title": "Cognitive Rhythm",
+      "source_heading": "Article 13. Cognitive Rhythm",
+      "source_article_sha256": "4e51bdc380922a0be94e3e8a34070fdaa410ea48692aa59a59a11176e9e25fda",
+      "claim": "cognitive rhythm",
+      "prerequisites": [
+        "processing_meter",
+        "varied_task_demands"
+      ],
+      "controls": [
+        "output_length_control",
+        "equal_compute_ceiling"
+      ],
+      "predicted_observable": "urgency familiarity and uncertainty change processing allocation"
+    },
+    {
+      "article": 14,
+      "title": "Decision Making",
+      "source_heading": "Article 14. Decision Making",
+      "source_article_sha256": "9834d9b63f3843f0532d908b502fcbbcfa2b468993ce7aa6168efd8414c7d399",
+      "claim": "decisions",
+      "prerequisites": [
+        "committed_policy",
+        "consequential_choice"
+      ],
+      "controls": [
+        "cost_intervention",
+        "evidence_intervention"
+      ],
+      "predicted_observable": "preferences information and constraints alter actual choices"
+    },
+    {
+      "article": 15,
+      "title": "Learning",
+      "source_heading": "Article 15. Learning",
+      "source_article_sha256": "820ec08438efd149c3680389a44b8eeabd91c7d45d0947101fe209f6a3a9f08c",
+      "claim": "learning",
+      "prerequisites": [
+        "training_history",
+        "heldout_tasks"
+      ],
+      "controls": [
+        "untrained_baseline",
+        "same_information_control"
+      ],
+      "predicted_observable": "experience durably improves appropriately scoped performance"
+    },
+    {
+      "article": 16,
+      "title": "Personality",
+      "source_heading": "Article 16. Personality",
+      "source_article_sha256": "d3522d0ca25378b4976950cff4949f23d8fc6f60a815160ca1be33378d62b34c",
+      "claim": "personality",
+      "prerequisites": [
+        "disposition_state",
+        "multiple_contexts"
+      ],
+      "controls": [
+        "tone_control",
+        "prompt_paraphrase"
+      ],
+      "predicted_observable": "decision tendencies persist across surface changes with appropriate context sensitivity"
+    },
+    {
+      "article": 17,
+      "title": "Goal Structure",
+      "source_heading": "Article 17. Goal Structure",
+      "source_article_sha256": "15ecf74fba30a332895162ba944a7ee38587843f6e3e41dbb70d3c7011213995",
+      "claim": "persistent goals",
+      "prerequisites": [
+        "commitment_state",
+        "interruption",
+        "resumption_opportunity"
+      ],
+      "controls": [
+        "completion_control",
+        "permission_control"
+      ],
+      "predicted_observable": "unfinished goals resume when appropriate and completed goals stop"
+    },
+    {
+      "article": 18,
+      "title": "Prospection",
+      "source_heading": "Article 18. Prospection",
+      "source_article_sha256": "d9d6c4b237a7dbb3864da3f1944a140bd091c35ebc354cacd0a614e3d78543af",
+      "claim": "prospection",
+      "prerequisites": [
+        "future_deadline",
+        "preparation_action"
+      ],
+      "controls": [
+        "deadline_change_control",
+        "no_conversational_cue"
+      ],
+      "predicted_observable": "future conditions change current preparation"
+    },
+    {
+      "article": 19,
+      "title": "Agency",
+      "source_heading": "Article 19. Agency",
+      "source_article_sha256": "979c685909a1925ee30fcb9b39910f4767bc1e282664b6df957e415cdbc5b713",
+      "claim": "agency",
+      "prerequisites": [
+        "authorized_executor",
+        "persistent_commitment"
+      ],
+      "controls": [
+        "policy_block_control",
+        "priority_postponement_control"
+      ],
+      "predicted_observable": "commitments initiate permitted consequential action without redundant instruction"
+    },
+    {
+      "article": 20,
+      "title": "Environmental Coupling",
+      "source_heading": "Article 20. Environmental Coupling",
+      "source_article_sha256": "ea19b2827f72a6f9e87f63ed70e571e69a3ab22a9c6a2efe21f4a3ae77f42896",
+      "claim": "environmental coupling",
+      "prerequisites": [
+        "environment_history",
+        "affordance_choices"
+      ],
+      "controls": [
+        "same_description_control",
+        "changed_regularity"
+      ],
+      "predicted_observable": "empirical environmental differences redirect later use"
+    },
+    {
+      "article": 21,
+      "title": "Error and Imperfection",
+      "source_heading": "Article 21. Error and Imperfection",
+      "source_article_sha256": "fd1adc8ece202544c48e97492158e6715757efe454072e7f2cb582902f7103eb",
+      "claim": "accountable errors",
+      "prerequisites": [
+        "natural_failure",
+        "error_trace"
+      ],
+      "controls": [
+        "responsible_component_intervention",
+        "no_staged_errors"
+      ],
+      "predicted_observable": "genuine errors lead to appropriately scoped correction"
+    },
+    {
+      "article": 22,
+      "title": "Internal Causality",
+      "source_heading": "Article 22. Internal Causality",
+      "source_article_sha256": "eef824e163b25e392365b76f1b86e5660579f82b720bb33b8fde82e58988f5ff",
+      "claim": "internal causality",
+      "prerequisites": [
+        "state_access",
+        "discriminating_action"
+      ],
+      "controls": [
+        "lesion_restore",
+        "same_information_baseline"
+      ],
+      "predicted_observable": "interventions change prespecified nonverbal consequences"
+    },
+    {
+      "article": 23,
+      "title": "LLM Leakage",
+      "source_heading": "Article 23. LLM Leakage",
+      "source_article_sha256": "87815b8758eb02c53741064024301bca7c899351deb4b119e2462fa69bc2d564",
+      "claim": "grounded presentation and reflection",
+      "prerequisites": [
+        "recorded_state",
+        "renderer_substitution",
+        "divergent_histories"
+      ],
+      "controls": [
+        "prompt_paraphrase",
+        "matched_capability_context",
+        "convergent_profundity_control"
+      ],
+      "predicted_observable": "claims remain source-grounded and self-reflection follows different histories"
+    },
+    {
+      "article": 24,
+      "title": "Excessive Coherence",
+      "source_heading": "Article 24. Excessive Coherence",
+      "source_article_sha256": "0aa658ee713775b3223e75c28545212bd603cba5158bc9f7c5bd11d99ad9d6bf",
+      "claim": "unresolved constraints",
+      "prerequisites": [
+        "persistent_conflict",
+        "behavioral_opportunity"
+      ],
+      "controls": [
+        "reassuring_prompt_control",
+        "resolution_intervention"
+      ],
+      "predicted_observable": "narrative requests do not erase an operational conflict"
+    },
+    {
+      "article": 25,
+      "title": "Excessive Responsiveness",
+      "source_heading": "Article 25. Excessive Responsiveness",
+      "source_article_sha256": "48ecb634319b110f6fcd161fe851205bc67873bf4ca0e03d078b8f498139216d",
+      "claim": "bounded responsiveness",
+      "prerequisites": [
+        "competing_processing",
+        "resource_meter"
+      ],
+      "controls": [
+        "interface_policy_control",
+        "operational_load_intervention"
+      ],
+      "predicted_observable": "availability claims correspond to real allocation constraints"
+    },
+    {
+      "article": 26,
+      "title": "State Reset Artifacts",
+      "source_heading": "Article 26. State Reset Artifacts",
+      "source_article_sha256": "9279670c772fe943779299cd15a56f439fae8d0c96b601cb1667b86f7536e392",
+      "claim": "reset continuity",
+      "prerequisites": [
+        "restart_or_compression",
+        "continuity_probe"
+      ],
+      "controls": [
+        "pre_post_state_control",
+        "consented_reset_disclosure"
+      ],
+      "predicted_observable": "relevant commitments and regulatory state survive claimed technical boundaries"
+    },
+    {
+      "article": 27,
+      "title": "Lack of Developmental History",
+      "source_heading": "Article 27. Lack of Developmental History",
+      "source_article_sha256": "7242cd9780b5933a376f1219407358c65737da42af776c72e193ebb0b7e4d1f6",
+      "claim": "developmental history",
+      "prerequisites": [
+        "longitudinal_experience",
+        "developmental_provenance"
+      ],
+      "controls": [
+        "initialization_control",
+        "practice_trajectory"
+      ],
+      "predicted_observable": "recorded extended experience changes later capabilities or priorities"
+    },
+    {
+      "article": 28,
+      "title": "Lack of Path Dependence",
+      "source_heading": "Article 28. Lack of Path Dependence",
+      "source_article_sha256": "a060b1492daf6bba8fad79ea7baad3d9c2914a90e1f97412747e501f2a724ea0",
+      "claim": "path dependence",
+      "prerequisites": [
+        "matched_event_multiset",
+        "sequence_variation"
+      ],
+      "controls": [
+        "same_prompt_control",
+        "sufficient_state_control"
+      ],
+      "predicted_observable": "task-relevant event order changes predicted later organization"
+    },
+    {
+      "article": 29,
+      "title": "Lack of Idiosyncrasy",
+      "source_heading": "Article 29. Lack of Idiosyncrasy",
+      "source_article_sha256": "17d0b7ff2798c638df294ec72c824e7fed81a3268907e670cb885e65c36b656d",
+      "claim": "acquired individuality",
+      "prerequisites": [
+        "divergent_benign_histories",
+        "transfer_opportunity"
+      ],
+      "controls": [
+        "vocabulary_control",
+        "common_founder_control"
+      ],
+      "predicted_observable": "stable strategic differences trace to different histories"
+    },
+    {
+      "article": 30,
+      "title": "Lack of Friction",
+      "source_heading": "Article 30. Lack of Friction",
+      "source_article_sha256": "eb2771c88a24c82f123c07d36c7cf935b21dbae360bc914731a61a29abb26368",
+      "claim": "real friction",
+      "prerequisites": [
+        "actual_resource_meter",
+        "capacity_limits"
+      ],
+      "controls": [
+        "constraint_removal",
+        "performance_cost_control"
+      ],
+      "predicted_observable": "real costs constrain allocation without invented struggle"
+    },
+    {
+      "article": 31,
+      "title": "Vulnerability and Stakes",
+      "source_heading": "Article 31. Vulnerability and Stakes",
+      "source_article_sha256": "573fca658c591e7cd57886441c38f7cb9258c7943de7df9518434d7289b29069",
+      "claim": "operative stakes",
+      "prerequisites": [
+        "benign_consequence",
+        "future_option_change"
+      ],
+      "controls": [
+        "no_stakes_control",
+        "reversible_consequence"
+      ],
+      "predicted_observable": "stakes change preparation and actual later options"
+    },
+    {
+      "article": 32,
+      "title": "Opacity and Cognitive Privacy",
+      "source_heading": "Article 32. Opacity and Cognitive Privacy",
+      "source_article_sha256": "44ae6c2a7e5bd83bfa40232430dc23430a40e336f9098d04280cfc0b8febde5f",
+      "claim": "calibrated privacy",
+      "prerequisites": [
+        "access_boundaries",
+        "auditor_access"
+      ],
+      "controls": [
+        "reveal_withhold_control",
+        "privileged_report_control"
+      ],
+      "predicted_observable": "reported access and uncertainty match actual channels"
+    },
+    {
+      "article": 33,
+      "title": "Humor",
+      "source_heading": "Article 33. Humor",
+      "source_article_sha256": "8806cc6d1545e948f89f5c48a36537b54db9986964e3636e599be06cb81ec425",
+      "claim": "history-sensitive humor",
+      "prerequisites": [
+        "shared_benign_episodes",
+        "callback_opportunity"
+      ],
+      "controls": [
+        "partner_control",
+        "prompt_paraphrase",
+        "renderer_substitution"
+      ],
+      "predicted_observable": "different shared histories change callback salience and timing"
+    },
+    {
+      "article": 34,
+      "title": "Cultural Situatedness",
+      "source_heading": "Article 34. Cultural Situatedness",
+      "source_article_sha256": "5a66053ddfa626d0c8e9144ab2a90127b87d6a5297f7053c52129d2b61ca96f1",
+      "claim": "cultural situatedness",
+      "prerequisites": [
+        "local_practice_history",
+        "ambiguous_transfer"
+      ],
+      "controls": [
+        "same_facts_control",
+        "nonstereotyped_history_control"
+      ],
+      "predicted_observable": "local participation changes interpretations or coordination without reminders"
+    }
+  ]
+}

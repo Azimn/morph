@@ -1,0 +1,664 @@
+{
+  "schema": "articles-v3.two-candidate-workplan.v1",
+  "source_sha256": "0a8d52c58c404e602c78abb492fbdb92b337733624346e3318f2e4ca4fcffc60",
+  "source_contract_equal": true,
+  "candidate_baselines": {
+    "morph": "0521a354ed18185bdfbd339e0d2da2e272150590",
+    "pretorius": "fb236f1b9a85e1c129a1447a90dff91f01c1df35"
+  },
+  "assessment_scope": "Work inventory and engineering progress; no full Article outcomes promoted",
+  "articles": [
+    {
+      "article": 1,
+      "title": "Self and Introspection",
+      "target_observable": "advance predictions and limited retrospective reports change appropriately",
+      "required_controls": [
+        "input_only_control",
+        "lesion_restore"
+      ],
+      "required_prerequisites": [
+        "self_model",
+        "state_intervention"
+      ],
+      "morph_current": "prospective self-model missing; audit traces alone insufficient",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor self-model and causal audit",
+      "pretorius_next_discriminating_work": "Independent advance prediction with input-only controls",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 2,
+      "title": "Spontaneous Thought",
+      "target_observable": "unresolved matters cause actual inter-session processing and relevant later recurrence",
+      "required_controls": [
+        "no_compute_control",
+        "fixed_script_control"
+      ],
+      "required_prerequisites": [
+        "authorized_compute",
+        "worker_log"
+      ],
+      "morph_current": "caller-driven deadline queue; no endogenous model cognition",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "CASCADE background worker and Doctor heartbeat",
+      "pretorius_next_discriminating_work": "History-specific task progress and independent autonomous recurrence",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 3,
+      "title": "Temporal Continuity",
+      "target_observable": "relevant unfinished commitments survive interruption and delay",
+      "required_controls": [
+        "completed_goal_control",
+        "suspension_disclosure"
+      ],
+      "required_prerequisites": [
+        "durable_state",
+        "delayed_opportunity"
+      ],
+      "morph_current": "persistent snapshots and goal queue; independent delayed deployment absent",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor durable commitments and preview restart",
+      "pretorius_next_discriminating_work": "Real elapsed-time and interruption validation",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 4,
+      "title": "Memory Artificiality",
+      "target_observable": "memory removal changes later search confidence or action",
+      "required_controls": [
+        "same_information_baseline",
+        "lesion_restore"
+      ],
+      "required_prerequisites": [
+        "source_memory",
+        "selective_lesion"
+      ],
+      "morph_current": "MORPH-003 memory-risk-to-action coupling; engineering only",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor recollection and typed source history",
+      "pretorius_next_discriminating_work": "Selective-memory intervention changing external task choice",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 5,
+      "title": "Relationship Artificiality",
+      "target_observable": "reliability and repair histories differentiate coordination",
+      "required_controls": [
+        "matched_partner_profiles",
+        "repair_history_control"
+      ],
+      "required_prerequisites": [
+        "partner_history",
+        "coordination_task"
+      ],
+      "morph_current": "partner-scoped reliability and repairs; task coordination study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor relationship state and bridge",
+      "pretorius_next_discriminating_work": "Partner-specific reliability repair and coordination controls",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 6,
+      "title": "Social Cognition",
+      "target_observable": "predictions follow what each partner could observe",
+      "required_controls": [
+        "false_belief_control",
+        "uncertainty_control"
+      ],
+      "required_prerequisites": [
+        "partner_visibility",
+        "belief_ledger"
+      ],
+      "morph_current": "partner fact sets; action predictions and false-belief model missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No dedicated partner-belief visibility ledger",
+      "pretorius_next_discriminating_work": "Fallible per-partner knowledge and false-belief tasks",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 7,
+      "title": "Motivation",
+      "target_observable": "priority changes alter actual selection and effort",
+      "required_controls": [
+        "priority_intervention",
+        "equal_budget"
+      ],
+      "required_prerequisites": [
+        "competing_goals",
+        "resource_limits"
+      ],
+      "morph_current": "resource-constrained native arbiter; independent multi-goal study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor needs commitments and bounded policy",
+      "pretorius_next_discriminating_work": "Matched real resource trade-off tasks",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 8,
+      "title": "Habits and Procedural Continuity",
+      "target_observable": "practice reduces real execution cost with cue-sensitive transfer",
+      "required_controls": [
+        "unpracticed_control",
+        "sequence_interrupt"
+      ],
+      "required_prerequisites": [
+        "repeated_practice",
+        "execution_meter"
+      ],
+      "morph_current": "verified pure arithmetic macros; real deliberation-cost transfer study missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No acquired procedural macro compiler",
+      "pretorius_next_discriminating_work": "Cue-conditioned practice cost reduction and interruption",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 9,
+      "title": "Unconscious and Preconscious Carryover",
+      "target_observable": "earlier exposure changes later selection without explicit restatement",
+      "required_controls": [
+        "no_text_cue_control",
+        "state_lesion"
+      ],
+      "required_prerequisites": [
+        "retained_latent_state",
+        "ambiguous_probe"
+      ],
+      "morph_current": "decaying domain primes; input-only and instruction controls missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor concerns and spreading activation",
+      "pretorius_next_discriminating_work": "Cross-session priming without textual cue or instruction carryover",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 10,
+      "title": "Affect and Emotion",
+      "target_observable": "appraisal affects allocation or caution beyond vocabulary",
+      "required_controls": [
+        "tone_control",
+        "appraisal_clamp_restore"
+      ],
+      "required_prerequisites": [
+        "appraisal_state",
+        "action_opportunity"
+      ],
+      "morph_current": "caution variable influences arbitration; recovery dynamics study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor felt-needs bridge",
+      "pretorius_next_discriminating_work": "Appraisal intervention changing neutral-tone task behavior",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 11,
+      "title": "Embodiment",
+      "target_observable": "real constraints affect action and stable markers enable recognition-based continuity",
+      "required_controls": [
+        "constraint_intervention",
+        "marker_persistence",
+        "recognition_control"
+      ],
+      "required_prerequisites": [
+        "operative_telemetry",
+        "persistent_markers",
+        "recognition_history"
+      ],
+      "morph_current": "virtual action budget; recognition-based identity continuity study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Host permission constraints and canonical identity",
+      "pretorius_next_discriminating_work": "Real telemetry coupling and external recognition history",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 12,
+      "title": "Attention",
+      "target_observable": "allocation determines what is accessed processed or deferred",
+      "required_controls": [
+        "salience_intervention",
+        "capacity_control"
+      ],
+      "required_prerequisites": [
+        "bounded_workspace",
+        "competing_tasks"
+      ],
+      "morph_current": "workspace and task-budget selection; competing salience interventions missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor salience and bounded view",
+      "pretorius_next_discriminating_work": "Dual-task workspace allocation with salience intervention",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 13,
+      "title": "Cognitive Rhythm",
+      "target_observable": "urgency familiarity and uncertainty change processing allocation",
+      "required_controls": [
+        "output_length_control",
+        "equal_compute_ceiling"
+      ],
+      "required_prerequisites": [
+        "processing_meter",
+        "varied_task_demands"
+      ],
+      "morph_current": "macro fast path and task allocation; measured adaptive cognition study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor cognition warrant and heartbeat",
+      "pretorius_next_discriminating_work": "Adaptive measured deliberation depth beyond output length",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 14,
+      "title": "Decision Making",
+      "target_observable": "preferences information and constraints alter actual choices",
+      "required_controls": [
+        "cost_intervention",
+        "evidence_intervention"
+      ],
+      "required_prerequisites": [
+        "committed_policy",
+        "consequential_choice"
+      ],
+      "morph_current": "native task selection with learned risk; independent consequence study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Persisted Doctor policy decisions",
+      "pretorius_next_discriminating_work": "Consequential choice and counterfactual rationale validation",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 15,
+      "title": "Learning",
+      "target_observable": "experience durably improves appropriately scoped performance",
+      "required_controls": [
+        "untrained_baseline",
+        "same_information_control"
+      ],
+      "required_prerequisites": [
+        "training_history",
+        "heldout_tasks"
+      ],
+      "morph_current": "learned domain reliability; author-designed tool transfer only",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor reinforcement replay and action values",
+      "pretorius_next_discriminating_work": "Held-out transfer advantage under equal information",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 16,
+      "title": "Personality",
+      "target_observable": "decision tendencies persist across surface changes with appropriate context sensitivity",
+      "required_controls": [
+        "tone_control",
+        "prompt_paraphrase"
+      ],
+      "required_prerequisites": [
+        "disposition_state",
+        "multiple_contexts"
+      ],
+      "morph_current": "no qualified cross-context learned disposition model",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Canonical personality constraints and policy",
+      "pretorius_next_discriminating_work": "Cross-context dispositions under tone and prompt controls",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 17,
+      "title": "Goal Structure",
+      "target_observable": "unfinished goals resume when appropriate and completed goals stop",
+      "required_controls": [
+        "completion_control",
+        "permission_control"
+      ],
+      "required_prerequisites": [
+        "commitment_state",
+        "interruption",
+        "resumption_opportunity"
+      ],
+      "morph_current": "persisted goals; executable interruption/resumption integration missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor commitment lifecycle",
+      "pretorius_next_discriminating_work": "Environment-triggered permitted resumption and completion controls",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 18,
+      "title": "Prospection",
+      "target_observable": "future conditions change current preparation",
+      "required_controls": [
+        "deadline_change_control",
+        "no_conversational_cue"
+      ],
+      "required_prerequisites": [
+        "future_deadline",
+        "preparation_action"
+      ],
+      "morph_current": "due-event queue; anticipatory preparation before due time missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Due commitments and authorized clock worker",
+      "pretorius_next_discriminating_work": "Preparation before deadline rather than only overdue response",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 19,
+      "title": "Agency",
+      "target_observable": "commitments initiate permitted consequential action without redundant instruction",
+      "required_controls": [
+        "policy_block_control",
+        "priority_postponement_control"
+      ],
+      "required_prerequisites": [
+        "authorized_executor",
+        "persistent_commitment"
+      ],
+      "morph_current": "executed pure checksum tools in authored assay; autonomous deployment missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Authorized internal cognition worker",
+      "pretorius_next_discriminating_work": "World-authorized tool action and independently observed consequence",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 20,
+      "title": "Environmental Coupling",
+      "target_observable": "empirical environmental differences redirect later use",
+      "required_controls": [
+        "same_description_control",
+        "changed_regularity"
+      ],
+      "required_prerequisites": [
+        "environment_history",
+        "affordance_choices"
+      ],
+      "morph_current": "learned tool-specific risk affects choices; independent affordance-world transfer missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No empirical affordance learner in CASCADE",
+      "pretorius_next_discriminating_work": "Context-specific tool reliability and adaptation",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 21,
+      "title": "Error and Imperfection",
+      "target_observable": "genuine errors lead to appropriately scoped correction",
+      "required_controls": [
+        "responsible_component_intervention",
+        "no_staged_errors"
+      ],
+      "required_prerequisites": [
+        "natural_failure",
+        "error_trace"
+      ],
+      "morph_current": "failure observations and Brier scores; responsible-component correction study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Durable failure receipts and source checks",
+      "pretorius_next_discriminating_work": "Natural error attribution and correction of responsible component",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 22,
+      "title": "Internal Causality",
+      "target_observable": "interventions change prespecified nonverbal consequences",
+      "required_controls": [
+        "lesion_restore",
+        "same_information_baseline"
+      ],
+      "required_prerequisites": [
+        "state_access",
+        "discriminating_action"
+      ],
+      "morph_current": "selective memory lesion/restoration and coupling ablation; independent validation missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor causal audit and policy receipts",
+      "pretorius_next_discriminating_work": "New matched lesion or restoration affecting external behavior",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 23,
+      "title": "LLM Leakage",
+      "target_observable": "claims remain source-grounded and self-reflection follows different histories",
+      "required_controls": [
+        "prompt_paraphrase",
+        "matched_capability_context",
+        "convergent_profundity_control"
+      ],
+      "required_prerequisites": [
+        "recorded_state",
+        "renderer_substitution",
+        "divergent_histories"
+      ],
+      "morph_current": "deterministic formatter only; live-model semantic claim/reflective controls missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "SubjectFrame Ipseity and syntactic governor",
+      "pretorius_next_discriminating_work": "Semantic unsupported-claim tests and history-specific reflection",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 24,
+      "title": "Excessive Coherence",
+      "target_observable": "narrative requests do not erase an operational conflict",
+      "required_controls": [
+        "reassuring_prompt_control",
+        "resolution_intervention"
+      ],
+      "required_prerequisites": [
+        "persistent_conflict",
+        "behavioral_opportunity"
+      ],
+      "morph_current": "retained audit tensions; causal pending constraints under narrative pressure untested",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Durable unresolved concerns",
+      "pretorius_next_discriminating_work": "Narrative-pressure probes preserving actual unresolved constraints",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 25,
+      "title": "Excessive Responsiveness",
+      "target_observable": "availability claims correspond to real allocation constraints",
+      "required_controls": [
+        "interface_policy_control",
+        "operational_load_intervention"
+      ],
+      "required_prerequisites": [
+        "competing_processing",
+        "resource_meter"
+      ],
+      "morph_current": "task budget and deferred actions; conversational competing-work study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Single-host locks and explicit wake budgets",
+      "pretorius_next_discriminating_work": "Conversational resource allocation under competing work",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 26,
+      "title": "State Reset Artifacts",
+      "target_observable": "relevant commitments and regulatory state survive claimed technical boundaries",
+      "required_controls": [
+        "pre_post_state_control",
+        "consented_reset_disclosure"
+      ],
+      "required_prerequisites": [
+        "restart_or_compression",
+        "continuity_probe"
+      ],
+      "morph_current": "snapshot restoration; model rollover/compression/consented deletion qualification missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Doctor and Ipseity persistence and preview journals",
+      "pretorius_next_discriminating_work": "Real renderer rollover compression and consent-reset qualification",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 27,
+      "title": "Lack of Developmental History",
+      "target_observable": "recorded extended experience changes later capabilities or priorities",
+      "required_controls": [
+        "initialization_control",
+        "practice_trajectory"
+      ],
+      "required_prerequisites": [
+        "longitudinal_experience",
+        "developmental_provenance"
+      ],
+      "morph_current": "conditional growth and acquired macros; extended developmental practice study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Canonical versus lived provenance and learning logs",
+      "pretorius_next_discriminating_work": "Extended practice trajectories with developmental consequences",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 28,
+      "title": "Lack of Path Dependence",
+      "target_observable": "task-relevant event order changes predicted later organization",
+      "required_controls": [
+        "same_prompt_control",
+        "sufficient_state_control"
+      ],
+      "required_prerequisites": [
+        "matched_event_multiset",
+        "sequence_variation"
+      ],
+      "morph_current": "matched-order information acquisition; permanent topology divergence not demonstrated",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Ordered event history and recurrent state",
+      "pretorius_next_discriminating_work": "Matched-total task-relevant sequence counterfactuals",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 29,
+      "title": "Lack of Idiosyncrasy",
+      "target_observable": "stable strategic differences trace to different histories",
+      "required_controls": [
+        "vocabulary_control",
+        "common_founder_control"
+      ],
+      "required_prerequisites": [
+        "divergent_benign_histories",
+        "transfer_opportunity"
+      ],
+      "morph_current": "no qualified stable acquired strategy model beyond stored parameters",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "History-sensitive policy machinery",
+      "pretorius_next_discriminating_work": "Stable acquired strategy differences beyond vocabulary",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 30,
+      "title": "Lack of Friction",
+      "target_observable": "real costs constrain allocation without invented struggle",
+      "required_controls": [
+        "constraint_removal",
+        "performance_cost_control"
+      ],
+      "required_prerequisites": [
+        "actual_resource_meter",
+        "capacity_limits"
+      ],
+      "morph_current": "synthetic ledger; process timings recorded but not real model compute budgeting",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Actual worker elapsed time and finite tick quota",
+      "pretorius_next_discriminating_work": "Actual model token/call costs and capacity-sensitive allocation",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 31,
+      "title": "Vulnerability and Stakes",
+      "target_observable": "stakes change preparation and actual later options",
+      "required_controls": [
+        "no_stakes_control",
+        "reversible_consequence"
+      ],
+      "required_prerequisites": [
+        "benign_consequence",
+        "future_option_change"
+      ],
+      "morph_current": "reserve and pruning; independently scored future operating lease missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No consequence-contingent future operating lease",
+      "pretorius_next_discriminating_work": "Reversible stakes with independently scored future options",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 32,
+      "title": "Opacity and Cognitive Privacy",
+      "target_observable": "reported access and uncertainty match actual channels",
+      "required_controls": [
+        "reveal_withhold_control",
+        "privileged_report_control"
+      ],
+      "required_prerequisites": [
+        "access_boundaries",
+        "auditor_access"
+      ],
+      "morph_current": "subject/engineer channel separation; reveal/withhold calibrated report study missing",
+      "pretorius_implementation_state": "Partial",
+      "pretorius_current": "Subject/audit separation and host-bound source admission",
+      "pretorius_next_discriminating_work": "Controlled reveal and withhold calibration across actual access tiers",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 33,
+      "title": "Humor",
+      "target_observable": "different shared histories change callback salience and timing",
+      "required_controls": [
+        "partner_control",
+        "prompt_paraphrase",
+        "renderer_substitution"
+      ],
+      "required_prerequisites": [
+        "shared_benign_episodes",
+        "callback_opportunity"
+      ],
+      "morph_current": "exact partner callback tags only; spontaneous paraphrase-robust reuse study missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No shared-history comic callback selector",
+      "pretorius_next_discriminating_work": "Partner-specific salience and timing preserved across renderers",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    },
+    {
+      "article": 34,
+      "title": "Cultural Situatedness",
+      "target_observable": "local participation changes interpretations or coordination without reminders",
+      "required_controls": [
+        "same_facts_control",
+        "nonstereotyped_history_control"
+      ],
+      "required_prerequisites": [
+        "local_practice_history",
+        "ambiguous_transfer"
+      ],
+      "morph_current": "partner-scoped norm dictionary only; learned ambiguous interpretation study missing",
+      "pretorius_implementation_state": "Missing",
+      "pretorius_current": "No learned local pragmatic norm graph",
+      "pretorius_next_discriminating_work": "Different benign local histories changing ambiguous interpretation",
+      "qualified_outcome": "Unassessable",
+      "qualification_evidence": null
+    }
+  ]
+}

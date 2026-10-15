@@ -8,6 +8,8 @@ This release provides a testable baseline for the proposal. It does not establis
 
 Version 0.2.0 adds a [source-pinned comparison with earlier digital creatures](docs/CREATURE_COMPARISON.md) and [MORPH-002 matched-event-order results](docs/MORPH-002-RESULTS.md). The new assay separates transient topology from persistent acquisition, with growth-disabled, preallocated-memory, and organ-ablation controls. Early memory growth retained eight records that late growth could not recover; a separate topology difference reconverged after eight common continuation turns. These results support narrow mechanism claims and do not establish a general developmental advantage.
 
+Version 0.3.0 starts the [source-grounded 34-Article qualification campaign](docs/ARTICLES-V3-CAMPAIGN.md) and connects learned memory to executed task choice. [MORPH-003](docs/MORPH-003-RESULTS.md) preserves a positive causal result under memory lesion/restoration and coupling ablation, alongside a reliable-tool null control. Full Article qualification remains unfinished.
+
 ## Run
 
 Requires Python 3.11 or newer. From this checkout:
@@ -62,6 +64,15 @@ python -m morph_engine run --state state.json --seed seed_01
 ```
 
 The command reads until end of input. Repeating it with the same state path resumes the stored topology, gradients, organ state, and audit chain. Multiple simultaneous writers are unsupported.
+
+## Consequential task and qualification commands
+
+```bash
+python -m morph_engine consequence-assay --output results/MORPH-003-consequential-memory.json
+python -m morph_engine qualify --output results/ARTICLES-V3-QUALIFICATION.json
+```
+
+The source contract is shared with the separate Pretorius candidate. The qualification command does not promote synthetic studies into full Article passes. See the [34-claim work inventory](docs/ARTICLES-V3-CAMPAIGN.json) for remaining mechanisms and evidence.
 
 ## Actual developmental results
 

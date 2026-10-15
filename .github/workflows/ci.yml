@@ -21,3 +21,6 @@ jobs:
       - run: python -c "from pathlib import Path; assert Path('/tmp/benchmark.json').read_bytes() == Path('results/benchmark-30-sessions.json').read_bytes()"
       - run: python -m morph_engine path-assay --output /tmp/path-assay.json.gz --summary-output /tmp/path-summary.json
       - run: python -c "from pathlib import Path; assert Path('/tmp/path-assay.json.gz').read_bytes() == Path('results/MORPH-002-matched-event-order.json.gz').read_bytes(); assert Path('/tmp/path-summary.json').read_bytes() == Path('results/MORPH-002-summary.json').read_bytes()"
+      - run: python -m morph_engine consequence-assay --output /tmp/consequences.json
+      - run: python -m morph_engine qualify --output /tmp/qualification.json
+      - run: python -c "import json; from pathlib import Path; r=json.loads(Path('/tmp/qualification.json').read_text()); assert len(r['articles']) == 34 and not r['all_claims_supported']; assert all(a['outcome'] == 'Unassessable' for a in r['articles'])"
