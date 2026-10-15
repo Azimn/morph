@@ -1,0 +1,8 @@
+[
+  {"id":"episodic_path_graph","module":"episodic_bmpg","channel":"retrieval_loss","threshold":2.5,"tax":0.12,"compile_cost":0.3,"dormant_turns":15,"articles":[4,9,15,20,27,28]},
+  {"id":"procedural_macro_cortex","module":"procedural_macro","channel":"deliberation_tax","threshold":2.0,"tax":0.08,"compile_cost":0.25,"dormant_turns":12,"articles":[8,13,29,30]},
+  {"id":"chronos_daemon","module":"chronos_daemon","channel":"boundary_drop","threshold":2.0,"tax":0.15,"compile_cost":0.35,"dormant_turns":20,"articles":[2,3,17,18,19]},
+  {"id":"homeostatic_stakes_arbiter","module":"stakes_arbiter","channel":"resource_collision","threshold":2.0,"tax":0.14,"compile_cost":0.3,"dormant_turns":15,"articles":[7,10,11,12,14,22,25,31]},
+  {"id":"social_cultural_cortex","module":"social_cortex","channel":"social_variance","threshold":2.0,"tax":0.1,"compile_cost":0.25,"dormant_turns":18,"articles":[5,6,16,33,34]},
+  {"id":"metacognitive_audit_mirror","module":"audit_mirror","channel":"epistemic_fog","threshold":1.8,"tax":0.1,"compile_cost":0.25,"dormant_turns":20,"articles":[1,21,23,24,26,32]}
+]

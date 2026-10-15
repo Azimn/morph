@@ -1,0 +1,3410 @@
+{
+  "schema_version": 1,
+  "cost_unit": "synthetic environment unit",
+  "same_boot": true,
+  "pairwise_different": true,
+  "lineages": [
+    {
+      "environment": "logistics",
+      "sessions": 30,
+      "growth_enabled": true,
+      "boot_sha256": "33b63c4cb515fb55ee8a13ffb2933f49450d1f2b7ce6e76f6ccc54cce5ed7654",
+      "organs": [
+        "chronos_daemon",
+        "episodic_path_graph",
+        "procedural_macro_cortex"
+      ],
+      "genesis": [
+        {
+          "hash": "6771d0cbc9515b4177f0a1c8f47049a59b20ccf7ef1d38dbe030b9575dedb755",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.3,
+            "gradient": "retrieval_loss",
+            "organ": "episodic_path_graph",
+            "tax": 0.12,
+            "template": "episodic_bmpg",
+            "threshold": 2.5,
+            "trigger": "ad3ccdab9aee5b1b33f1a67591dba9c318ffc7e16b058c29c24619dba549bc55",
+            "value": 2.8
+          },
+          "previous": "9c21b5816332030e7b61613cff6a65b1b200ad2b5dc0d32067ae6d69dba76dc3",
+          "sequence": 13,
+          "turn": 9
+        },
+        {
+          "hash": "af8c7f76c0f94fa0191ac470928e3aaf83ddb8a0421977b7bf1aec2f56548110",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.35,
+            "gradient": "boundary_drop",
+            "organ": "chronos_daemon",
+            "tax": 0.15,
+            "template": "chronos_daemon",
+            "threshold": 2.0,
+            "trigger": "aaa0d69149598848356577ae96fd4544408ce2a2cb21661f8155eb903ac091d2",
+            "value": 2.4
+          },
+          "previous": "6771d0cbc9515b4177f0a1c8f47049a59b20ccf7ef1d38dbe030b9575dedb755",
+          "sequence": 14,
+          "turn": 9
+        },
+        {
+          "hash": "ccacece1bd5bab6c05feee96a93484f1c61cb6e192f699fe29ba3f534bee1a7f",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.25,
+            "gradient": "deliberation_tax",
+            "organ": "procedural_macro_cortex",
+            "tax": 0.08,
+            "template": "procedural_macro",
+            "threshold": 2.0,
+            "trigger": "0d5ccedc61eeb69f93fd75463f8f8c32ca2e21382a2b742d524b64157c698e10",
+            "value": 2.2
+          },
+          "previous": "092bf50990ce7587f524737d7f22e836d4e5f5a2457f8aa1ff63d3138b506218",
+          "sequence": 71,
+          "turn": 24
+        }
+      ],
+      "failures": {
+        "retrieval_loss": 3,
+        "boundary_drop": 3,
+        "deliberation_tax": 9
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 3,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 8.0
+        },
+        {
+          "session": 2,
+          "turn": 6,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.35
+        },
+        {
+          "session": 3,
+          "turn": 9,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph"
+          ],
+          "lifecycle": [
+            {
+              "kind": "genesis",
+              "organ": "episodic_path_graph",
+              "receipt": "6771d0cbc9515b4177f0a1c8f47049a59b20ccf7ef1d38dbe030b9575dedb755"
+            },
+            {
+              "kind": "genesis",
+              "organ": "chronos_daemon",
+              "receipt": "af8c7f76c0f94fa0191ac470928e3aaf83ddb8a0421977b7bf1aec2f56548110"
+            }
+          ],
+          "reserve": 8.7
+        },
+        {
+          "session": 4,
+          "turn": 12,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph"
+          ],
+          "lifecycle": [],
+          "reserve": 9.08
+        },
+        {
+          "session": 5,
+          "turn": 15,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph"
+          ],
+          "lifecycle": [],
+          "reserve": 9.592500000000001
+        },
+        {
+          "session": 6,
+          "turn": 18,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph"
+          ],
+          "lifecycle": [],
+          "reserve": 9.592500000000001
+        },
+        {
+          "session": 7,
+          "turn": 21,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph"
+          ],
+          "lifecycle": [],
+          "reserve": 9.592500000000001
+        },
+        {
+          "session": 8,
+          "turn": 24,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [
+            {
+              "kind": "genesis",
+              "organ": "procedural_macro_cortex",
+              "receipt": "ccacece1bd5bab6c05feee96a93484f1c61cb6e192f699fe29ba3f534bee1a7f"
+            }
+          ],
+          "reserve": 9.3425
+        },
+        {
+          "session": 9,
+          "turn": 27,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.512500000000001
+        },
+        {
+          "session": 10,
+          "turn": 30,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.512500000000001
+        },
+        {
+          "session": 11,
+          "turn": 33,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.512500000000001
+        },
+        {
+          "session": 12,
+          "turn": 36,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.512500000000001
+        },
+        {
+          "session": 13,
+          "turn": 39,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.512500000000001
+        },
+        {
+          "session": 14,
+          "turn": 42,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 15,
+          "turn": 45,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 16,
+          "turn": 48,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 17,
+          "turn": 51,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 18,
+          "turn": 54,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 19,
+          "turn": 57,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 20,
+          "turn": 60,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 21,
+          "turn": 63,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 22,
+          "turn": 66,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 23,
+          "turn": 69,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 24,
+          "turn": 72,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 25,
+          "turn": 75,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 26,
+          "turn": 78,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 27,
+          "turn": 81,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 28,
+          "turn": 84,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 29,
+          "turn": 87,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        },
+        {
+          "session": 30,
+          "turn": 90,
+          "organs": [
+            "chronos_daemon",
+            "episodic_path_graph",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.65
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        }
+      ]
+    },
+    {
+      "environment": "optimization",
+      "sessions": 30,
+      "growth_enabled": true,
+      "boot_sha256": "33b63c4cb515fb55ee8a13ffb2933f49450d1f2b7ce6e76f6ccc54cce5ed7654",
+      "organs": [
+        "homeostatic_stakes_arbiter",
+        "procedural_macro_cortex"
+      ],
+      "genesis": [
+        {
+          "hash": "b946177fd8c18bedf8f7f4f3ecc9d19715d401fca40dd25eda6b862eda2bdea1",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.3,
+            "gradient": "resource_collision",
+            "organ": "homeostatic_stakes_arbiter",
+            "tax": 0.14,
+            "template": "stakes_arbiter",
+            "threshold": 2.0,
+            "trigger": "b0f0239f1c9c2a299252efb1d241dc957b5d7e1ebfaad81c80d477b865811d1b",
+            "value": 2.3
+          },
+          "previous": "da2e274826543a93fd1ef5b3d57dae916f19998b2630c33cfda0176804be9bc2",
+          "sequence": 8,
+          "turn": 6
+        },
+        {
+          "hash": "2a4c2ce363b3b0fd6695c0d34ccffc9eb59c0e817f41c6badcef5576eae805e7",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.25,
+            "gradient": "deliberation_tax",
+            "organ": "procedural_macro_cortex",
+            "tax": 0.08,
+            "template": "procedural_macro",
+            "threshold": 2.0,
+            "trigger": "b388de4ac8e8394852a92476699a794d6c07e9a3cc382e172065a1af618ac13f",
+            "value": 2.2
+          },
+          "previous": "e5612d2665fce5f4cc93f1c037ee178a69fd919b229be0edce52b932a8e53588",
+          "sequence": 49,
+          "turn": 24
+        }
+      ],
+      "failures": {
+        "resource_collision": 2,
+        "deliberation_tax": 9
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 3,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 7.7125
+        },
+        {
+          "session": 2,
+          "turn": 6,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [
+            {
+              "kind": "genesis",
+              "organ": "homeostatic_stakes_arbiter",
+              "receipt": "b946177fd8c18bedf8f7f4f3ecc9d19715d401fca40dd25eda6b862eda2bdea1"
+            }
+          ],
+          "reserve": 9.4125
+        },
+        {
+          "session": 3,
+          "turn": 9,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [],
+          "reserve": 9.86
+        },
+        {
+          "session": 4,
+          "turn": 12,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [],
+          "reserve": 9.86
+        },
+        {
+          "session": 5,
+          "turn": 15,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [],
+          "reserve": 9.7225
+        },
+        {
+          "session": 6,
+          "turn": 18,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [],
+          "reserve": 9.7225
+        },
+        {
+          "session": 7,
+          "turn": 21,
+          "organs": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "lifecycle": [],
+          "reserve": 9.7225
+        },
+        {
+          "session": 8,
+          "turn": 24,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [
+            {
+              "kind": "genesis",
+              "organ": "procedural_macro_cortex",
+              "receipt": "2a4c2ce363b3b0fd6695c0d34ccffc9eb59c0e817f41c6badcef5576eae805e7"
+            }
+          ],
+          "reserve": 9.4725
+        },
+        {
+          "session": 9,
+          "turn": 27,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.6425
+        },
+        {
+          "session": 10,
+          "turn": 30,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.6425
+        },
+        {
+          "session": 11,
+          "turn": 33,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.6425
+        },
+        {
+          "session": 12,
+          "turn": 36,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.6425
+        },
+        {
+          "session": 13,
+          "turn": 39,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.6425
+        },
+        {
+          "session": 14,
+          "turn": 42,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 15,
+          "turn": 45,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 16,
+          "turn": 48,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 17,
+          "turn": 51,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 18,
+          "turn": 54,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 19,
+          "turn": 57,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 20,
+          "turn": 60,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 21,
+          "turn": 63,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 22,
+          "turn": 66,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 23,
+          "turn": 69,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 24,
+          "turn": 72,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 25,
+          "turn": 75,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 26,
+          "turn": 78,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 27,
+          "turn": 81,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 28,
+          "turn": 84,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 29,
+          "turn": 87,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        },
+        {
+          "session": 30,
+          "turn": 90,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "procedural_macro_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.78
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        }
+      ]
+    },
+    {
+      "environment": "household",
+      "sessions": 30,
+      "growth_enabled": true,
+      "boot_sha256": "33b63c4cb515fb55ee8a13ffb2933f49450d1f2b7ce6e76f6ccc54cce5ed7654",
+      "organs": [
+        "homeostatic_stakes_arbiter",
+        "metacognitive_audit_mirror",
+        "social_cultural_cortex"
+      ],
+      "genesis": [
+        {
+          "hash": "d6e3090fe43bd1ba829bcb7297f58aa3795e31b52e85f7990198102dd758f99d",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.3,
+            "gradient": "resource_collision",
+            "organ": "homeostatic_stakes_arbiter",
+            "tax": 0.14,
+            "template": "stakes_arbiter",
+            "threshold": 2.0,
+            "trigger": "2fdac2854f2ce3f8e8eda8749a642aba8a8c69e7de7aea10739342cc43529d0c",
+            "value": 2.3
+          },
+          "previous": "a6fe3ef0eddfba5c324186db63a38c0c07a0507a350440e7c5e070e2ba80a206",
+          "sequence": 14,
+          "turn": 8
+        },
+        {
+          "hash": "6f68ecfcabe1f0260b8b8a0960130cf001071e6d12000d04f16375d536080967",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.25,
+            "gradient": "social_variance",
+            "organ": "social_cultural_cortex",
+            "tax": 0.1,
+            "template": "social_cortex",
+            "threshold": 2.0,
+            "trigger": "e94c30c1c7bcdb583b96c4abfe2a3edd5bd2103565006337ca8b557a57e97586",
+            "value": 2.5
+          },
+          "previous": "d6e3090fe43bd1ba829bcb7297f58aa3795e31b52e85f7990198102dd758f99d",
+          "sequence": 15,
+          "turn": 8
+        },
+        {
+          "hash": "17067d3a9ddc89f95dc0f874347e14095a46405573e6c1b65b8aeedbe306b523",
+          "kind": "genesis",
+          "payload": {
+            "compile_cost": 0.25,
+            "gradient": "epistemic_fog",
+            "organ": "metacognitive_audit_mirror",
+            "tax": 0.1,
+            "template": "audit_mirror",
+            "threshold": 1.8,
+            "trigger": "bbd6511626a1874aee15498340b72a04b0f00cc4a66ed19fc7403f983e9789d5",
+            "value": 2.2
+          },
+          "previous": "6f68ecfcabe1f0260b8b8a0960130cf001071e6d12000d04f16375d536080967",
+          "sequence": 16,
+          "turn": 8
+        }
+      ],
+      "failures": {
+        "resource_collision": 2,
+        "social_variance": 2,
+        "epistemic_fog": 2
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 4,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 8.125
+        },
+        {
+          "session": 2,
+          "turn": 8,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [
+            {
+              "kind": "genesis",
+              "organ": "homeostatic_stakes_arbiter",
+              "receipt": "d6e3090fe43bd1ba829bcb7297f58aa3795e31b52e85f7990198102dd758f99d"
+            },
+            {
+              "kind": "genesis",
+              "organ": "social_cultural_cortex",
+              "receipt": "6f68ecfcabe1f0260b8b8a0960130cf001071e6d12000d04f16375d536080967"
+            },
+            {
+              "kind": "genesis",
+              "organ": "metacognitive_audit_mirror",
+              "receipt": "17067d3a9ddc89f95dc0f874347e14095a46405573e6c1b65b8aeedbe306b523"
+            }
+          ],
+          "reserve": 8.325
+        },
+        {
+          "session": 3,
+          "turn": 12,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 4,
+          "turn": 16,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 5,
+          "turn": 20,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 6,
+          "turn": 24,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 7,
+          "turn": 28,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 8,
+          "turn": 32,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 9,
+          "turn": 36,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 10,
+          "turn": 40,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 11,
+          "turn": 44,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 12,
+          "turn": 48,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 13,
+          "turn": 52,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 14,
+          "turn": 56,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 15,
+          "turn": 60,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 16,
+          "turn": 64,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 17,
+          "turn": 68,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 18,
+          "turn": 72,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 19,
+          "turn": 76,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 20,
+          "turn": 80,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 21,
+          "turn": 84,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 22,
+          "turn": 88,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 23,
+          "turn": 92,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 24,
+          "turn": 96,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 25,
+          "turn": 100,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 26,
+          "turn": 104,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 27,
+          "turn": 108,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 28,
+          "turn": 112,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 29,
+          "turn": 116,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        },
+        {
+          "session": 30,
+          "turn": 120,
+          "organs": [
+            "homeostatic_stakes_arbiter",
+            "metacognitive_audit_mirror",
+            "social_cultural_cortex"
+          ],
+          "lifecycle": [],
+          "reserve": 9.66
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [],
+          "reason": "article_protocol_not_supplied"
+        }
+      ]
+    }
+  ],
+  "growth_disabled_controls": [
+    {
+      "environment": "logistics",
+      "sessions": 30,
+      "growth_enabled": false,
+      "boot_sha256": "0e984834f4f7526514c44908ad2a319c22a86a8f5f59757889f622b622ac44c2",
+      "organs": [],
+      "genesis": [],
+      "failures": {
+        "retrieval_loss": 29,
+        "boundary_drop": 29,
+        "deliberation_tax": 26
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 3,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 8.0
+        },
+        {
+          "session": 2,
+          "turn": 6,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.35
+        },
+        {
+          "session": 3,
+          "turn": 9,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.35
+        },
+        {
+          "session": 4,
+          "turn": 12,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.35
+        },
+        {
+          "session": 5,
+          "turn": 15,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 6,
+          "turn": 18,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 7,
+          "turn": 21,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 8,
+          "turn": 24,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 9,
+          "turn": 27,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 10,
+          "turn": 30,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 11,
+          "turn": 33,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 12,
+          "turn": 36,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 13,
+          "turn": 39,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 14,
+          "turn": 42,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 15,
+          "turn": 45,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 16,
+          "turn": 48,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 17,
+          "turn": 51,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 18,
+          "turn": 54,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 19,
+          "turn": 57,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 20,
+          "turn": 60,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 21,
+          "turn": 63,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 22,
+          "turn": 66,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 23,
+          "turn": 69,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 24,
+          "turn": 72,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 25,
+          "turn": 75,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 26,
+          "turn": 78,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 27,
+          "turn": 81,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 28,
+          "turn": 84,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 29,
+          "turn": 87,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        },
+        {
+          "session": 30,
+          "turn": 90,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.2125
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        }
+      ]
+    },
+    {
+      "environment": "optimization",
+      "sessions": 30,
+      "growth_enabled": false,
+      "boot_sha256": "0e984834f4f7526514c44908ad2a319c22a86a8f5f59757889f622b622ac44c2",
+      "organs": [],
+      "genesis": [],
+      "failures": {
+        "resource_collision": 30,
+        "deliberation_tax": 26
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 3,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 7.7125
+        },
+        {
+          "session": 2,
+          "turn": 6,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.7125
+        },
+        {
+          "session": 3,
+          "turn": 9,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.7125
+        },
+        {
+          "session": 4,
+          "turn": 12,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.7125
+        },
+        {
+          "session": 5,
+          "turn": 15,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 6,
+          "turn": 18,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 7,
+          "turn": 21,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 8,
+          "turn": 24,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 9,
+          "turn": 27,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 10,
+          "turn": 30,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 11,
+          "turn": 33,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 12,
+          "turn": 36,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 13,
+          "turn": 39,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 14,
+          "turn": 42,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 15,
+          "turn": 45,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 16,
+          "turn": 48,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 17,
+          "turn": 51,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 18,
+          "turn": 54,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 19,
+          "turn": 57,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 20,
+          "turn": 60,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 21,
+          "turn": 63,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 22,
+          "turn": 66,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 23,
+          "turn": 69,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 24,
+          "turn": 72,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 25,
+          "turn": 75,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 26,
+          "turn": 78,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 27,
+          "turn": 81,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 28,
+          "turn": 84,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 29,
+          "turn": 87,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        },
+        {
+          "session": 30,
+          "turn": 90,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.575000000000001
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        }
+      ]
+    },
+    {
+      "environment": "household",
+      "sessions": 30,
+      "growth_enabled": false,
+      "boot_sha256": "0e984834f4f7526514c44908ad2a319c22a86a8f5f59757889f622b622ac44c2",
+      "organs": [],
+      "genesis": [],
+      "failures": {
+        "resource_collision": 30,
+        "social_variance": 30,
+        "epistemic_fog": 30
+      },
+      "history": [
+        {
+          "session": 1,
+          "turn": 4,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 8.125
+        },
+        {
+          "session": 2,
+          "turn": 8,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 3,
+          "turn": 12,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 4,
+          "turn": 16,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 5,
+          "turn": 20,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 6,
+          "turn": 24,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 7,
+          "turn": 28,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 8,
+          "turn": 32,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 9,
+          "turn": 36,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 10,
+          "turn": 40,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 11,
+          "turn": 44,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 12,
+          "turn": 48,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 13,
+          "turn": 52,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 14,
+          "turn": 56,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 15,
+          "turn": 60,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 16,
+          "turn": 64,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 17,
+          "turn": 68,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 18,
+          "turn": 72,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 19,
+          "turn": 76,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 20,
+          "turn": 80,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 21,
+          "turn": 84,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 22,
+          "turn": 88,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 23,
+          "turn": 92,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 24,
+          "turn": 96,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 25,
+          "turn": 100,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 26,
+          "turn": 104,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 27,
+          "turn": 108,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 28,
+          "turn": 112,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 29,
+          "turn": 116,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        },
+        {
+          "session": 30,
+          "turn": 120,
+          "organs": [],
+          "lifecycle": [],
+          "reserve": 9.125
+        }
+      ],
+      "articles": [
+        {
+          "article": 1,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 2,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 3,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 4,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 5,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 6,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 7,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 8,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 9,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 10,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 11,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 12,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 13,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 14,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 15,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 16,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 17,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 18,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 19,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "chronos_daemon"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 20,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 21,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 22,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 23,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 24,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 25,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 26,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 27,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 28,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "episodic_path_graph"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 29,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 30,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "procedural_macro_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 31,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "homeostatic_stakes_arbiter"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 32,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "metacognitive_audit_mirror"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 33,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        },
+        {
+          "article": 34,
+          "outcome": "UNASSESSABLE",
+          "missing": [
+            "social_cultural_cortex"
+          ],
+          "reason": "organ_absent"
+        }
+      ]
+    }
+  ],
+  "claim_limit": "Conditional selection from six authored templates; no novel organ synthesis or Article support established."
+}
