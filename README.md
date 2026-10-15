@@ -2,9 +2,11 @@
 
 Metabolically Organized Recursive Phenotypic Hierarchy is an executable research harness for environmentally triggered architectural development. An identical zygote begins with a current-turn scratchpad, resource bookkeeping, a strict first-person verbalizer, and a morphogen engine. Six authored templates can become live organs only after friction crosses a threshold and compilation is affordable.
 
-Version 0.1.0 implements conditional differentiation, recurring maintenance, inactivity and insolvency pruning, hash-chained lifecycle receipts, atomic JSON persistence, and a reproducible 30-session benchmark with growth-disabled controls. It uses Python's standard library at runtime and needs no API key, model download, service, or database.
+Version 0.1.0 implemented conditional differentiation, recurring maintenance, inactivity and insolvency pruning, hash-chained lifecycle receipts, atomic JSON persistence, and a reproducible 30-session benchmark with growth-disabled controls. It uses Python's standard library at runtime and needs no API key, model download, service, or database.
 
-This release establishes a testable baseline for the proposal. It does not establish open-ended architectural invention, biological equivalence, consciousness, production companion readiness, or satisfaction of the 34 Articles of Artificiality.
+This release provides a testable baseline for the proposal. It does not establish open-ended architectural invention, biological equivalence, consciousness, production companion readiness, or satisfaction of the 34 Articles of Artificiality.
+
+Version 0.2.0 adds a [source-pinned comparison with earlier digital creatures](docs/CREATURE_COMPARISON.md) and [MORPH-002 matched-event-order results](docs/MORPH-002-RESULTS.md). The new assay separates transient topology from persistent acquisition, with growth-disabled, preallocated-memory, and organ-ablation controls. Early memory growth retained eight records that late growth could not recover; a separate topology difference reconverged after eight common continuation turns. These results support narrow mechanism claims and do not establish a general developmental advantage.
 
 ## Run
 
@@ -13,6 +15,7 @@ Requires Python 3.11 or newer. From this checkout:
 ```bash
 python -m unittest discover -s tests -v
 python -m morph_engine benchmark --sessions 30 --output results/benchmark-30-sessions.json
+python -m morph_engine path-assay --output results/MORPH-002-matched-event-order.json.gz --summary-output results/MORPH-002-summary.json
 ```
 
 An optional installation provides the `morph` command:

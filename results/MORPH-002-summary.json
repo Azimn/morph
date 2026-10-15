@@ -1,0 +1,821 @@
+{
+  "experiment": "MORPH-002",
+  "protocol_sha256": "98e49ad03a4025c8d2bfc3d09b48d5e09b7d05e382816f7c5d490462f6e78b7a",
+  "assay_source_sha256": "ca6bb55474a4e74812e86060927ef181656b7b5a5bfa17c03a1bc6e851e80afd",
+  "genome_sha256": "9f8737a6a573c73625127aa5cac1d099f036ea121a773f64f9d365b5e31910a4",
+  "gates_passed": true,
+  "control_definition": "fixed_memory means preallocated at t0 with inherited lifecycle and regrowth active; it is not a permanently pinned topology",
+  "cases": [
+    {
+      "case": "pruning_only",
+      "matching": {
+        "same_event_multiset": true,
+        "same_total_pressure": true,
+        "pressure_per_arm": 2.8,
+        "event_multiset_sha256": "30d2f740c099c28a4c69345e9e34a2a59d357e487796a168baedede6d6f11835",
+        "execution_orders_differ": true,
+        "time_and_credit_schedule_sha256": "789b2e43a0d0e584ccfe5d9a0ee6605b7a007ab1864237a6db814c5385dd7bb2",
+        "time_and_credit_schedule": [
+          {
+            "turn": 1,
+            "now": 1.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 2,
+            "now": 2.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 3,
+            "now": 3.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 4,
+            "now": 4.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 5,
+            "now": 5.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 6,
+            "now": 6.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 7,
+            "now": 7.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 8,
+            "now": 8.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 9,
+            "now": 9.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 10,
+            "now": 10.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 11,
+            "now": 11.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 12,
+            "now": 12.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 13,
+            "now": 13.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 14,
+            "now": 14.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 15,
+            "now": 15.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 16,
+            "now": 16.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 17,
+            "now": 17.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 18,
+            "now": 18.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 19,
+            "now": 19.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 20,
+            "now": 20.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 21,
+            "now": 21.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 22,
+            "now": 22.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 23,
+            "now": 23.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 24,
+            "now": 24.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 25,
+            "now": 25.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 26,
+            "now": 26.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 27,
+            "now": 27.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 28,
+            "now": 28.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 29,
+            "now": 29.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 30,
+            "now": 30.0,
+            "session_boundary": true,
+            "credit": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "mode": "developmental",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": true,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        },
+        {
+          "mode": "growth_disabled",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        },
+        {
+          "mode": "fixed_memory",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": true,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "retained_memory",
+      "matching": {
+        "same_event_multiset": true,
+        "same_total_pressure": true,
+        "pressure_per_arm": 2.8,
+        "event_multiset_sha256": "ad62f92711fe41ad502b78213b0173e9604171ed98a85a806801b4fdeccbc4c8",
+        "execution_orders_differ": true,
+        "time_and_credit_schedule_sha256": "789b2e43a0d0e584ccfe5d9a0ee6605b7a007ab1864237a6db814c5385dd7bb2",
+        "time_and_credit_schedule": [
+          {
+            "turn": 1,
+            "now": 1.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 2,
+            "now": 2.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 3,
+            "now": 3.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 4,
+            "now": 4.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 5,
+            "now": 5.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 6,
+            "now": 6.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 7,
+            "now": 7.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 8,
+            "now": 8.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 9,
+            "now": 9.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 10,
+            "now": 10.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 11,
+            "now": 11.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 12,
+            "now": 12.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 13,
+            "now": 13.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 14,
+            "now": 14.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 15,
+            "now": 15.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 16,
+            "now": 16.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 17,
+            "now": 17.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 18,
+            "now": 18.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 19,
+            "now": 19.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 20,
+            "now": 20.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 21,
+            "now": 21.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 22,
+            "now": 22.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 23,
+            "now": 23.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 24,
+            "now": 24.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 25,
+            "now": 25.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 26,
+            "now": 26.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 27,
+            "now": 27.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 28,
+            "now": 28.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 29,
+            "now": 29.0,
+            "session_boundary": true,
+            "credit": 1.0
+          },
+          {
+            "turn": 30,
+            "now": 30.0,
+            "session_boundary": true,
+            "credit": 1.0
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "mode": "developmental",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 8,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 8,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 8,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": true,
+              "sham_recall_gap_early_minus_late": 8,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 8,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 8,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 8,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 8,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        },
+        {
+          "mode": "growth_disabled",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 0,
+              "late_correct": 0,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        },
+        {
+          "mode": "fixed_memory",
+          "same_paired_boot": true,
+          "same_continuation_inputs": true,
+          "identical_history_reproduced": true,
+          "comparisons": [
+            {
+              "continuation_age": 0,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 8,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 32,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            },
+            {
+              "continuation_age": 64,
+              "same_evaluation_turn": true,
+              "topology_differs": false,
+              "content_differs": false,
+              "sham_recall_gap_early_minus_late": 0,
+              "ablated_recall_gap_early_minus_late": 0
+            }
+          ],
+          "scores": [
+            {
+              "continuation_age": 0,
+              "early_correct": 8,
+              "late_correct": 8,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 8,
+              "early_correct": 8,
+              "late_correct": 8,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 32,
+              "early_correct": 8,
+              "late_correct": 8,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            },
+            {
+              "continuation_age": 64,
+              "early_correct": 8,
+              "late_correct": 8,
+              "early_ablated_correct": 0,
+              "late_ablated_correct": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "claim_limit": "Exploratory favorable timing test within an authored genome; topology, information acquisition, persistence, and ablation are separate outcomes. No general developmental advantage or Article 28 support inferred."
+}
